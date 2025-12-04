@@ -162,6 +162,10 @@ body {
 }
 
 .btn {
+  font-family: var(--font-sans-secondary);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-loose);
   text-decoration: none;
   padding: var(--space-100) var(--space-400);
   background-color: var(--clr-bg-btn);
