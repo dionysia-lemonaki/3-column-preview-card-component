@@ -138,6 +138,7 @@ body {
 
 .card__content {
   gap: var(--space-300);
+  flex: 1 1 auto;
 }
 
 .card__intro {
@@ -158,6 +159,48 @@ body {
   font-weight: 400;
   font-size: var(--fs-sm);
   line-height: var(--lh-loose);
+}
+
+.btn {
+  text-decoration: none;
+  padding: var(--space-100) var(--space-400);
+  background-color: var(--clr-bg-btn);
+  border: var(--border-btn);
+  border-radius: var(--radius-lg);
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  color: var(--clr-text-primary);
+}
+
+.btn--sedans {
+  color: var(--clr-sedans);
+}
+
+.btn--sedans:hover,
+.btn--sedans:focus-visible {
+  background-color: var(--clr-sedans);
+}
+
+.btn--suvs {
+  color: var(--clr-suvs);
+}
+
+.btn--suvs:hover,
+.btn--suvs:focus-visible {
+  background-color: var(--clr-suvs);
+}
+
+.btn--luxury {
+  color: var(--clr-luxury);
+}
+
+.btn--luxury:hover,
+.btn--luxury:focus-visible {
+  background-color: var(--clr-luxury);
 }
 
 @media (width >= 51.5rem) {
