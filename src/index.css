@@ -80,6 +80,12 @@ svg {
 
 body {
   background-color: var(--clr-bg-body);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-300);
 }
 
 /* --- utility classes --- */
@@ -100,3 +106,70 @@ body {
 }
 
 /* --- end of utility classes */
+
+.cards {
+  max-width: var(--max-cards);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  display: grid;
+}
+
+.card {
+  padding: var(--space-600);
+  gap: var(--space-400);
+}
+
+.card--sedans {
+  background-color: var(--clr-sedans);
+}
+
+.card--suvs {
+  background-color: var(--clr-suvs);
+}
+
+.card--luxury {
+  background-color: var(--clr-luxury);
+}
+
+.card__image {
+  width: 4rem;
+  height: 2.5rem;
+}
+
+.card__content {
+  gap: var(--space-300);
+}
+
+.card__intro {
+  gap: var(--space-300);
+}
+
+.card__title {
+  font-family: var(--font-sans-primary);
+  color: var(--clr-text-primary);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-tight);
+}
+
+.card__description {
+  font-family: var(--font-sans-secondary);
+  color: var(--clr-text-secondary);
+  font-weight: 400;
+  font-size: var(--fs-sm);
+  line-height: var(--lh-loose);
+}
+
+@media (width >= 51.5rem) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card {
+    gap: var(--space-500);
+  }
+
+  .card__content {
+    gap: var(--space-1000);
+  }
+}
