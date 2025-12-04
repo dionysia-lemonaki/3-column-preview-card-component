@@ -1,0 +1,47 @@
+:root {
+  /* colors */
+  --white: hsla(0 0% 100% / 0.75);
+  --black: hsl(0 0% 0%);
+  --gray-100: hsl(0 0% 95%);
+  --green-950: hsl(179 100% 13%);
+  --green-500: hsl(170 76% 41%);
+  --cyan-800: hsl(184 100% 22%);
+  --cyan-500: hsl(184 67% 45%);
+  --gold-500: hsl(31 77% 52%);
+  --gold-200: hsl(42 100% 73%);
+
+  /* semantic colors */
+  --clr-bg-body: var(--gray-100);
+  --clr-text-primary: var(--gray-100);
+  --clr-text-secondary: var(--white);
+  --clr-bg-btn: var(--gray-100);
+  --border-btn: 2px solid var(--gray-100);
+  --clr-sedans: var(--gold-500);
+  --clr-suvs: var(--cyan-800);
+  --clr-luxury: var(--green-950);
+
+  /* typography */
+  --font-sans-primary: "Big Shoulders", sans-serif;
+  --font-sans-secondary: "Lexend Deca", sans-serif;
+  --fw-regular: 400;
+  --fw-bold: 700;
+  --fs-sm: 0.9375rem; /* 15px */
+  --fs-lg: 2.5rem; /* 40px */
+  --lh-tight: 1.2;
+  --lh-loose: 1.6;
+
+  /* spacing */
+  --space-100: 8px;
+  --space-300: 24px;
+  --space-400: 32px;
+  --space-500: 40px;
+  --space-600: 48px;
+  --space-1000: 80px;
+
+  /* sizing */
+  --max-cards: 57.5625rem; /* 921px */
+
+  /* border radius */
+  --radius-lg: 25px;
+  --radius-sm: 8px;
+}
