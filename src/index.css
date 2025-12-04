@@ -171,7 +171,6 @@ body {
   background-color: var(--clr-bg-btn);
   border: var(--border-btn);
   border-radius: var(--radius-lg);
-  margin-top: auto;
   align-self: flex-start;
 }
 
